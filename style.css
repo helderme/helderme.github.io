@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #dbebfa;
+    color: #004d73;
+    
+}
+.centertext{
+    text-align: center;
+}
+#fundoazul{
+    background: #00334e;
+}
+.bigname {
+    color: #dbebfa;
+    text-align: center;
+    background: #00334e;
+    margin: 10px auto;
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 20px 0px;
+}
+.myphoto{
+    border: #007fbd;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+.indice-button{
+    background-color: #007fbd;
+    padding: 5px 10px;
+    color:#dbebfa;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 5px;
+    display:block;
+    width: 100px;
+    text-align: center;
+}
+.indice-button:hover{
+    background-color: #004d73;
+}
+.connections{
+    background-color: #00334e;
+    padding: 5px 10px;
+    color:#dbebfa;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 5px;
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+
+}
+    
+}
