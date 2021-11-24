@@ -4,26 +4,38 @@ body {
     color: #004d73;
     
 }
-.centertext{
-    text-align: center;
-}
-#fundoazul{
-    background: #00334e;
-}
+
 .bigname {
     color: #dbebfa;
-    text-align: center;
-    background: #00334e;
-    margin: 10px auto;
-    padding: 10px 10px;
-    width: 300px;
+    background-color: #00334e;
+    width: 200px;
     border-radius: 20px 0px;
+    font-weight: 600;
+    margin-left: 25%;
+    position: fixed;
 }
 .myphoto{
     border: #007fbd;
-    border-radius: 100%;
-    margin: auto;
-    display: block;
+    border-radius: 25% 5%;
+    margin-left: 200px;
+    margin-left: 80%;
+    position: fixed;
+
+}
+.d-indice{
+    margin-left: 25%;
+    position: fixed;
+    margin-top: 10%
+}
+.d-right{
+    background-color: #dbebfa;
+    text-align: center;
+    margin-left:50%;
+    border-radius: 5px;
+    margin-right: 25%;
+    clear:left;
+
+
 }
 .indice-button{
     background-color: #007fbd;
@@ -49,7 +61,20 @@ body {
     display:inline-block;
     width: 100px;
     text-align: center;
-
+}
+.header{
+    background-color: #00334e;
+    width:30%;
+    height: 100%;
+    position:fixed;
+}
+li{
+    list-style: none;
+}
+p em{
+    text-align:justify;
+}
+span{
+    font-weight: 200;
 }
     
-}
