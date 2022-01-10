@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/d731b73af7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,59 +17,135 @@
 </head>
 
 <body>
-    <div class="header">
-    <h1 class="bigname">HELDER <span>MEDEIROS</span></h1>
-    <img src="images/helder.jpeg" class="myphoto" alt="foto de helder" width="150" id="minhafoto">
-    </div>
-
-    <div class="d-indice">
-        <a href="#sobremim" class="indice-button">Sobre mim</a>
-        <a href="#habilidades" class="indice-button">Habilidades</a>
-        <a href="#redes" class="indice-button">Contato</a>
-        <a href="#minhafoto" class="indice-button">Minha foto</a>
-    </div>
-    
+    <header>
+        <h1 class="bigname">Helder <span>Medeiros</span></h1>
+        <div class="top-menu">
+            <a href="#sobremim" class="indice-button">Sobre mim</a>
+            <a href="#habilidades" class="indice-button">Habilidades</a>
+            <a href="#redes" class="indice-button">Contato</a>
+            <a href="#minhafoto" class="indice-button">Minha foto</a>
+        </div>
+    </header>
 
     <div class="d-right">
-
-        <p>Sobre mim:</p>
-        <h3>Brasileiro, 26 anos, Tubarão - Santa Catarina - Brasil</h3>
-    
-        <p><em>Iniciei minha jornada profissional como Designer Gráfico exercendo as atividades de: 
-        Fechamento de Arquivos, ajustes, Tratamento de imagem, adaptação de artes, 
-        criação, conversão de cores, vetorização de logos, desenvolvimento de rótulos, 
-        catálogos, panfletos entre outros materiais de impressão offset e flexográfica. 
-        Experiência com Corel Draw e Photoshop.</em></p>
-    
-        <p>Em 2021 decidi mudar de carreira</p>
-    
-        <h4><strong>Atualmente sou Estudante de Desenvolvimento Web na Trybe</strong></h4>
-        <p id="habilidades">Desenvolvendo as seguintes habilidades:</p>
-        <ul><li>✅ Unix & Shell</li><br>
-            <li>⌛ HTML</li><br>
-            <li>⌛ CSS</li><br>
-            <li>☐ Javascript</li><br>
-            <li>☐ React</li><br>
-            <li>☐ SQL</li><br>
-            <li>☐ Node.JS</li><br>
-            <li>☐ Pyton</li><br>
-        </ul>
-        <p>Outras habilidades:</p>
-        <ul>
-            <li>Responsável</li><br>
-            <li>Atencioso</li><br>
-            <li>Compreensivo</li>
-        </ul>
-    
-        <p id="redes"><strong>Confira minhas redes:</strong><br>
-            <a class="fa fa-linkedin-square connections" href="https://www.linkedin.com/in/helderme/"> Linkedin </a> 
-            <a class="fa fa-github connections"  href="https://github.com/helderme"> Github </a> 
-            <a class="fa fa-instagram connections" href="https://www.instagram.com/heldermedeiross/"> Instagram </a> </p>
-            <p>Aberto para feedbacks, me ajudam muito!</p>
-    
-            <a href="#minhafoto" class="indice-button">Início</a>
-
+        <img src="images/helder.jpeg" class="myphoto" alt="foto de helder" width="150" id="minhafoto">
+        <div class="sobre-mim">
+            <h4>Sobre mim:</h4>
+            <p>Brasileiro, 26 anos, Tubarão - Santa Catarina - Brasil</p>
+            <p class="description-text"><em>Iniciei minha jornada profissional como Designer Gráfico exercendo as atividades de: 
+            Fechamento de Arquivos, ajustes, Tratamento de imagem, adaptação de artes, 
+            criação, conversão de cores, vetorização de logos, desenvolvimento de rótulos, 
+            catálogos, panfletos entre outros materiais de impressão offset e flexográfica. 
+            Experiência com Corel Draw e Photoshop.</em></p>
+            <p>Em 2021 decidi mudar de carreira</p>
+            <h4>Atualmente sou Estudante de Desenvolvimento Web na Trybe</h4>
+        </div>
     </div>
+
+    <div class="container-skills">
+        <h4>Desenvolvendo as seguintes habilidades:</h4><br>
+        <ul class="habilidades">
+            <li class="concluido">
+                <i class=" sit fas fa-check-square"></i>
+                <p>Unix & Shell</p>
+                <i class="fab fa-linux"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit fas fa-hourglass-half"></i> 
+                <p>HTML</p>
+                <i class="fab fa-html5"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit fas fa-hourglass-half"></i> 
+                <p>CSS</p>
+                <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit fas fa-hourglass-half"></i> 
+                <p>Javascript</p>
+                <i class="fab fa-js"></i>
+            </li>
+        </ul>
+        <ul class="habilidades">
+            <li class="estudando">
+                <i class="sit far fa-square"></i>
+                <p>React</p>
+                <i class="fab fa-react"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit far fa-square"></i>
+                <p>SQL</p>
+                <i class="fas fa-server"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit far fa-square"></i>
+                <p>Node.JS</p>
+                <i class="fab fa-node-js"></i>
+            </li>
+            <li class="estudando">
+                <i class="sit far fa-square"></i>
+                <p>Pyton</p>
+                <i class="fab fa-python"></i>
+            </li>
+        </ul>
+        <br>
+        <h4>Habilidades pessoais:</h4><br>
+        <ul class="habilidades">
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Responsável</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Atencioso</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Compreensivo</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-projects">
+        <p class="projects-title">Projetos que já executei para fixar os aprendizados</p>
+        <ul class="projetos">
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Lessons Learned</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i> 
+                <p>Playground Functions </p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Pixels <br>Art</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Meme Generator</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>To do <br>List</p>
+            </li>
+            <li>
+                <i class=" sit fas fa-check-square"></i>
+                <p>Color <br>Guess</p>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Confira minhas redes:</p>
+        <div class="redes">
+            <a class="fa fa-linkedin-square connections" href="https://www.linkedin.com/in/helderme/"></a> 
+            <a class="fa fa-github connections"  href="https://github.com/helderme"></a> 
+            <a class="fa fa-instagram connections" href="https://www.instagram.com/heldermedeiross/"></a>
+        </div>
+    </footer>
+
+    
 
 </body>
 </html>
